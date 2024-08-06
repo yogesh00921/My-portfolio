@@ -21,7 +21,7 @@ This portfolio website is designed to provide an overview of my work and capabil
 
 ## Preview
 
-You can view our website through the following link: [Portfolio](https://yogeshkumar.tech/)
+You can view our website through the following link: [My_Portfolio](https://yogeshkumar.tech/)
 
 Happy coding!
 
