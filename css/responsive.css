@@ -1,0 +1,252 @@
+/* Normal Desktop  */
+@media screen and (min-width:992px) and (max-width:1169px) {
+    #pre-loader{
+        background-size: 15%;
+    }
+    header nav {
+        margin: 0px 35px;
+    }
+
+    .hero-img img {
+        height: 300px;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+    }
+
+    .about-img {
+        width: 40%;
+    }
+
+    .about-img img {
+        height: 490px;
+    }
+
+    .wave-about svg {
+        top: 80px;
+    }
+
+    .card-container {
+        width: 360px;
+    }
+
+    .card-w2 {
+        width: 550px;
+    }
+
+}
+
+/* Tablet Desktop  */
+@media screen and (min-width:768px) and (max-width:991px) {
+    #pre-loader{
+        background-size: 20%;
+    }
+    .mobile-nav-btn {
+        display: none;
+    }
+    #particles-js{
+        height: 1600px;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        background: #050816;
+        text-align: center;
+        height: 0px;
+        transition: .4s;
+        overflow: hidden;
+    }
+    .navbar ul{
+        flex-direction: column;
+        gap: 20px;
+        transition: .5s;
+        opacity: 0;
+        padding: 25px 0px;
+    }
+    .navbar ul li a{
+        display: inline-block;
+        width: 80px; 
+
+    }
+    .active{
+        padding: 0;
+    }
+    header{
+        background-color: #050816;
+    }
+    .hamburger{
+        display: block;
+    }
+    nav{
+        margin: 0px 40px;
+
+    }
+    .navbar.active{
+        height: 300px;
+        border: none;
+    }
+    .navbar.active ul{
+        opacity: 1;
+    }
+    .hero-section{
+        justify-content: space-evenly;
+    }
+    .hero-img img{
+        height: 250px;
+    }
+    .hero-text{
+        font-size: 1rem;
+    }
+    .hero-text h1 span{
+        font-size: 2.5rem !important;
+    }
+    .hero-img {
+        width: 34%;
+    }
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-content{
+        width: 100%;
+    }
+    .about-img{
+        width: 55%;
+    }
+    .wave-about svg{
+        top: 90px;
+    }
+    .card-container{
+        width: 90%
+    }
+    .project-card{
+        gap: 30px;
+    }
+    .contact-img img{
+        width: 100%;
+    }
+    .contact-img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:767px){
+    #pre-loader{
+        background-size: 34%;
+    }
+    
+    .mobile-nav-btn,
+    .hero-img {
+        display: none;
+    }
+    .navbar {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        background: #050816;
+        text-align: center;
+        height: 0px;
+        transition: .4s;
+        overflow: hidden;
+    }
+    .navbar ul{
+        flex-direction: column;
+        gap: 20px;
+        transition: .5s;
+        opacity: 0;
+        padding: 25px 0px;
+    }
+    .navbar ul li a{
+        display: inline-block;
+        width: 80px; 
+
+    }
+    .active{
+        padding: 0;
+    }
+    header{
+        background-color: #050816;
+    }
+    .hamburger{
+        display: block;
+    }
+    nav{
+        margin: 0px 40px;
+
+    }
+    .navbar.active{
+        height: 300px;
+        border: none;
+    }
+    .navbar.active ul{
+        opacity: 1;
+    }
+    .hero-text{
+        width: 90%;
+    }
+    .hero-text h1 span{
+        font-size: 2.4rem !important;
+    }
+    #element{
+        font-size: 1.6rem;
+    }
+    .hero-btn{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .about-container,
+    .contact-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-content,
+    .about-img{
+        width: 100%;
+    }
+    .wave-about,
+    .wave-hero{
+        display: none;
+    }
+    #particles-js{
+        height: 1800px;
+    }
+    .main-heading{
+        font-size: 2.4rem;
+    }
+    .project-para{
+        font-size: .90rem;
+        padding: 10px 15px;
+    }
+    .project-card{
+        gap: 50px;
+    }
+    .card .content .heading{
+        font-size: 28px;
+    }
+    .contact-img img,
+    .contact-img{
+        width: 100%;
+    }
+    .contact-div{
+        gap: 25px;
+    }
+    footer p{
+        font-size: .90rem;
+    }
+
+    .item img{
+        filter: none;
+    }
+    .item h4{
+        visibility: visible;
+    }
+
+}
+
